@@ -73,9 +73,6 @@ def config_worker( device, username, password ):
         else:
             print(' -- No difference ...')
 
-
-    config_filename = 'config-' + device['ipaddr'] + '.txt'
-    with open( config_filename, 'w' ) as config_out: config_out.write( running_config )
     session.disconnect()
 
     return
