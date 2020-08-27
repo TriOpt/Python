@@ -1,0 +1,5 @@
+conf t
+interface eth1/1
+switchport mode trunk
+end
+exit

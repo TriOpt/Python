@@ -1,0 +1,9 @@
+! For Per_OS scripts only the device IP, OS type and NAME are required in the following order
+!
+192.168.1.1,cisco-ios,CORE01
+192.168.1.3,cisco-nxos,LEAF01
+
+! For Per_Device scripts simply add the name of the file which contains the commands
+!
+192.168.1.1,cisco-ios,CORE01,CORE01-config.txt
+192.168.1.3,cisco-nxos,LEAF01,LEAF01-config.txt
